@@ -44,6 +44,14 @@ Then run the configure script:
 
 (installs the library and header files in predefined path
 
+Out-of-source build
+==================
+$ `mkdir build`
+$`cd build`
+$`autoreconf -i -v ..`
+$`../configure`
+$`make`
+
 
 Trying out some auto-generated capabilities
 ===========================================
@@ -101,3 +109,7 @@ Useful commands
 $ `list="LICENSE INSTALL README.md AUTHORS COPYING"`
 
 $ `touch $list`
+$ `autoscan` generates the templates for the configure.ac under configure.scan name
+$`make distclean`
+
+(Cleans miost of the generated files)
