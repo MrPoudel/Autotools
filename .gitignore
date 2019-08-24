@@ -1,3 +1,23 @@
+
+#remove autotool generated stuff
+autom4te.cache/
+build-aux/
+include/Makefile.in
+include/Makefile
+include/.deps
+Makefile
+Makefile.in
+aclocal.m4
+config.*
+configure
+src/Makefile.in
+src/Makefile
+.project
+stamp-h1
+src/main
+src/.deps
+
+
 # Prerequisites
 *.d
 
