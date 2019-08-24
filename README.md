@@ -47,9 +47,13 @@ Then run the configure script:
 Out-of-source build
 ==================
 $ `mkdir build`
+
 $`cd build`
+
 $`autoreconf -i -v ..`
+
 $`../configure`
+
 $`make`
 
 
@@ -109,7 +113,11 @@ Useful commands
 $ `list="LICENSE INSTALL README.md AUTHORS COPYING"`
 
 $ `touch $list`
-$ `autoscan` generates the templates for the configure.ac under configure.scan name
+
+$ `autoscan` 
+
+(generates the templates for the configure.ac under configure.scan name)
+
 $`make distclean`
 
 (Cleans miost of the generated files)
