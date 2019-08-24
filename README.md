@@ -110,7 +110,7 @@ my_program-0.01.tar.gz
 
 Useful commands
 ===========================================
-$ `list="LICENSE INSTALL README.md AUTHORS COPYING"`
+$ `list="LICENSE INSTALL README.md AUTHORS COPYING"` 
 
 $ `touch $list`
 
