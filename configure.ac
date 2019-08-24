@@ -1,12 +1,12 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
 
+AC_PREREQ([2.68]) #autoconf version >= 2.68
+
 # Initialize AC: ACINIT( package_name, version, bug_report_address)
 
 AC_INIT([my_program], [0.01], [https://github.com/MrPoudel]) #program name is my_program
 
-
-AC_PREREQ([2.68]) #autoconf version >= 2.68
 #AC_CONFIG_SRCDIR([hello.c]) #safety File must exist
 AC_CONFIG_HEADERS([config.h])    #MAke config header
 AC_CONFIG_AUX_DIR([build-aux]) #Auxialary files go here: missing, install-sh, decomp 

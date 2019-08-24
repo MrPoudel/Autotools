@@ -120,4 +120,4 @@ $ `autoscan`
 
 $`make distclean`
 
-(Cleans miost of the generated files)
+(Cleans most of the generated files)
