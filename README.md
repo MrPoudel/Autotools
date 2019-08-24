@@ -11,12 +11,13 @@ This project provides a template which can be used to the jump start your projec
 Developers normally write configure.ac on root directory and Makefile.am in each of the subdirectories where the generation of Makefile is expected.
 
 Autotools provides common build facilities:
+
 - select tools (e.g .CC= ..)
 - select destinations(e.g. prefix=.._
 - DESTDIR(vital for packaging)
 - VPATH builds
-- cross compilation
-- congif.site etc.
+- cross compilation etc.
+
 
 Steps:
 =======
@@ -95,7 +96,7 @@ my_program-0.01.tar.gz
 ```
 
 
-Useful command to create may file at a time
+Useful commands
 ===========================================
 $ `list="LICENSE INSTALL README.md AUTHORS COPYING"`
 
