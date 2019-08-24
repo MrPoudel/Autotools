@@ -1,6 +1,7 @@
 #include <iostream>
 #include "helper.h"
 #include "../include/mymathclass.h"
+#include "config.h"
 
 int main() {
   MyMathClass obj1;

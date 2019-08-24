@@ -1,12 +1,16 @@
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+
 # Initialize AC: ACINIT( package_name, version, bug_report_address)
 
-AC_INIT([my_program], [0.01]) #program name is my_program
+AC_INIT([my_program], [0.01], [https://github.com/MrPoudel]) #program name is my_program
 
 
 AC_PREREQ([2.68]) #autoconf version >= 2.68
 #AC_CONFIG_SRCDIR([hello.c]) #safety File must exist
 AC_CONFIG_HEADERS([config.h])    #MAke config header
-AC_CONFIG_AUX_DIR([build-aux]) #Auxialary files go here
+AC_CONFIG_AUX_DIR([build-aux]) #Auxialary files go here: missing, install-sh, decomp 
+AC_CONFIG_MACRO_DIR([m4])
 #AM_INIT_AUTOMAKE([1.11 -Wall -Werror])
 # Initialize Automake
 
@@ -22,6 +26,7 @@ AC_LANG(C++)
 
 # Let's set a C++ compiler
 AC_PROG_CXX
+#AC_PROG_CC_C0 # Nedded for -DDEBUG
 
 #Let's set a c compiler
 #AC_PROG_CC

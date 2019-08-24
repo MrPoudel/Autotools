@@ -1,4 +1,7 @@
+ACLOCAL_AMFLAGS = -I m4 --install
 # We don't want to follow GNU file setup (no README, no AUTHORS, etc)
 AUTOMAKE_OPTIONS = foreign
 # We have two dirs with code and (Makefile.am's) in them
 SUBDIRS = include src
+#Neded for m4 
+EXTRA_DIST = m4/NOTES

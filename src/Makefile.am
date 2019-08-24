@@ -1,6 +1,7 @@
 # Our binary is produced here
 bin_PROGRAMS = main
 main_SOURCES = main.cpp
+main_CPPFLAGS=-DDEBUG
 # main binary will be installed into the default directory for "bin"s (hence we used the bin
 # prefix
 noinst_LIBRARIES = libhelper.a
@@ -10,3 +11,4 @@ libhelper_a_SOURCES = helper.cpp helper.h
 main_LDADD = libhelper.a ../include/libmymathclass.a
 # LDADD specifies which libraries to compile into "main". We have two libraries.
 # libhelper comes from this directory and libmyadd come from my_inc directory.
+

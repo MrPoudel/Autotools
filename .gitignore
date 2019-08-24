@@ -1,5 +1,6 @@
 
 #remove autotool generated stuff
+build
 autom4te.cache/
 build-aux/
 include/Makefile.in
